@@ -1,3 +1,8 @@
+@font-face {
+    font-family: my-font;
+    src: url(Figtree-Regular.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -12,4 +17,18 @@ body {
 
 body {
     background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: my-font;
+    font-size: 28rem;
+    color: white;
+    overflow: hidden;
+}
+
+h1 span {
+    display: inline-block;
 }
